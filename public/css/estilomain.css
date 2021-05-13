@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/* Iniciando pelo topo*/
+div#topo
+{
+    background: blueviolet;
+    height: 300px;
+    width: 1024px;
+
+}

@@ -32,13 +32,14 @@ section#texto-principal
     width: 1024px;
     margin: auto;
     display: inline-flex;
+
     
 }
 div#texto-coluna1
 {
     background: darkkhaki;
     width: 510px;
-
+    position: absolute;
 }
 div#texto-coluna2
 {
@@ -46,7 +47,19 @@ div#texto-coluna2
     width: 510px;
     
 }
-
+div#boxes
+{
+    position: relative;
+    margin: auto;
+}
+.foto-box
+{
+    background: lightpink;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    float: left;
+}
 footer
 {
     background: crimson;

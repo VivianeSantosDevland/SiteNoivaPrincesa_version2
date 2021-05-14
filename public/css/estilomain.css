@@ -10,5 +10,50 @@ div#topo
     background: blueviolet;
     height: 300px;
     width: 1024px;
+    margin: auto;
 
+}
+div#menu-principal
+{
+    background: crimson;
+    margin: auto;
+    width: 1024px;
+    height: 30px;
+    text-align: center;
+}
+li
+{
+    display: inline;
+    align-items: center;
+}
+section#texto-principal
+{
+    background: cyan;
+    width: 1024px;
+    margin: auto;
+    display: inline-flex;
+    
+}
+div#texto-coluna1
+{
+    background: darkkhaki;
+    width: 510px;
+
+}
+div#texto-coluna2
+{
+    background: darkred;
+    width: 510px;
+    
+}
+
+footer
+{
+    background: crimson;
+    margin: auto;
+    width: 1024px;
+    height: 30px;
+    text-align: center;
+    
+    
 }

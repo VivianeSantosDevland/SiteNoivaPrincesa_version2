@@ -3,7 +3,10 @@
     margin: 0px;
     border: 0px;
 }
-
+body
+{
+    background: darksalmon
+}
 /* Iniciando pelo topo*/
 div#topo
 {
@@ -25,39 +28,41 @@ li
 {
     display: inline;
     align-items: center;
+    text-decoration: none;
 }
 section#texto-principal
 {
     background: cyan;
-    width: 1024px;
     margin: auto;
-    display: inline-flex;
-
-    
+    width: 1024px;
+    /*display: inline-block;  
+    justify-content: center;*/
 }
 div#texto-coluna1
 {
     background: darkkhaki;
-    width: 510px;
-    position: absolute;
+    width: 500px;
+    float: left;
+    height: 190px;
 }
 div#texto-coluna2
 {
     background: darkred;
-    width: 510px;
-    
+    width: 500px;
+    float: left;
+    height: 190px;
 }
 div#boxes
 {
-    position: relative;
     margin: auto;
+    width: 1024px;
+    background: darkblue;
 }
 .foto-box
 {
     background: lightpink;
     width: 200px;
     height: 350px;
-    margin: 20px;
     float: left;
 }
 footer
@@ -66,7 +71,5 @@ footer
     margin: auto;
     width: 1024px;
     height: 30px;
-    text-align: center;
-    
-    
+    text-align: center;    
 }

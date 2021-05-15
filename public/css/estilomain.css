@@ -15,6 +15,28 @@ div#topo
     width: 1024px;
     margin: auto;
 }
+div#topo-rede
+{
+    background: greenyellow;
+    position: relative;
+}
+div#logo
+{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: -310px;
+    position: relative;
+}
+div#redes-sociais
+{
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+}
+
 /* circulos do painel de fotos*/
 div#circles
 {

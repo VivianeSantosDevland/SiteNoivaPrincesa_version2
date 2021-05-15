@@ -14,8 +14,42 @@ div#topo
     height: 300px;
     width: 1024px;
     margin: auto;
-
 }
+/* circulos do painel de fotos*/
+div#circles
+{
+    background: tomato;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div#circle-1
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    margin-right: 3px;
+}
+div#circle-2
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    margin-right: 3px;
+}
+div#circle-3
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+
 div#menu-principal
 {
     background: crimson;

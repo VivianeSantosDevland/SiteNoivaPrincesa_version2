@@ -1,3 +1,4 @@
+/*reset */
 *{
     padding: 0px;
     margin: 0px;
@@ -16,6 +17,16 @@ div#topo
     height: 300px;
     width: 1024px;
     margin: auto;
+}
+div#topo-transparencia
+{
+    height: 300px;
+    width: 1024px;
+    margin: auto;
+    opacity: 70%;
+    background: #ecb2c4;
+    position: absolute;
+    margin-top: -305px;
 }
 div#logo-rede
 {
@@ -89,18 +100,27 @@ div#menu-principal
     background: crimson;
     margin: auto;
     width: 1024px;
-    height: 30px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    font-family: MV Boli;
+    font-size: 17pt;
 }
 div#menu-principal a:link
 {
     text-decoration:none;
+    
 }
+
 li 
 {
-    display: inline;
-    align-items: center;
     
+    display: inline;
+    margin-right: 10px;
+    
+   
 }
 /* texto principal */
 div#topo-texto
@@ -122,9 +142,13 @@ div#texto-coluna1
 {
     background: darkkhaki;
     width: 500px;
-    float: left;
     height: 190px;
+    float: left;
+    text-indent: 1.5em;
+    text-align: justify;
+    margin-left: 12px;
 }
+/*
 div#centro-texto
 {
     background: greenyellow;
@@ -132,12 +156,16 @@ div#centro-texto
     width: 10px;
     float: left;
 }
+*/
 div#texto-coluna2
 {
     background: darkred;
     width: 500px;
-    float: left;
     height: 190px;
+    margin-right: 12px;
+    float: right;
+    text-indent: 1.5em;
+    text-align: justify;
 }
 div#footer-texto
 {
@@ -161,19 +189,29 @@ div#foto-boxes
 .foto-box
 {
     background: lightpink;
-    width: 200px;
+    width: 289px;
     height: 350px;
     float: left;
     margin: 10px;
     
 }
-
+.foto-box p{
+    background: #e089a5;
+    text-align: center;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: MV Boli;
+    color: white;
+}
 footer
 {
     background: crimson;
     margin: auto;
     width: 1024px;
-    height: 30px;
+    height: 120px;
     text-align: center;  
     position: relative;  
     
@@ -181,18 +219,27 @@ footer
 
 div#menu-footer
 {
-    background: white;
+    background: #b37a8c;
     margin: auto;
     width: 1024px;
-    height: 30px;
-    text-align: center;      
+    height: 52px;
+    text-align: center;
+    font-size: 14pt;      
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 div#menu-footer a:link
 {
     text-decoration: none;
+    
 }
+
 footer p
 {
     font-size: 12pt;
     font-style: italic;
+    margin-top: 23px;
+    
 }

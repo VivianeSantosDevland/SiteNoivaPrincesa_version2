@@ -7,6 +7,8 @@ body
 {
     background: darksalmon
 }
+
+
 /* Iniciando pelo topo*/
 div#topo
 {
@@ -54,28 +56,30 @@ div#circles
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin-top: -30px;
     
 }
 div#circle-1
 {
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: white;
-    margin-right: 3px;
+    margin-right: 4px;
 }
 div#circle-2
 {
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: white;
-    margin-right: 3px;
+    margin-right: 4px;
 }
 div#circle-3
 {
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: white;
 }
@@ -88,11 +92,22 @@ div#menu-principal
     height: 30px;
     text-align: center;
 }
-li
+div#menu-principal a:link
+{
+    text-decoration:none;
+}
+li 
 {
     display: inline;
     align-items: center;
-    text-decoration: none;
+    
+}
+/* texto principal */
+div#topo-texto
+{
+    background: indigo;
+    margin: auto;
+    width: 1024px;
 }
 section#texto-principal
 {
@@ -110,6 +125,13 @@ div#texto-coluna1
     float: left;
     height: 190px;
 }
+div#centro-texto
+{
+    background: greenyellow;
+    height: 190px;
+    width: 10px;
+    float: left;
+}
 div#texto-coluna2
 {
     background: darkred;
@@ -117,6 +139,13 @@ div#texto-coluna2
     float: left;
     height: 190px;
 }
+div#footer-texto
+{
+    background: indigo;
+    margin: auto;
+    width: 1024px;    
+}
+/* caixas com as imagens*/
 div#foto-boxes
 {
     margin: auto;
@@ -138,7 +167,7 @@ div#foto-boxes
     margin: 10px;
     
 }
-/*
+
 footer
 {
     background: crimson;
@@ -147,14 +176,23 @@ footer
     height: 30px;
     text-align: center;  
     position: relative;  
-    float: left;
-}*/
+    
+}
+
 div#menu-footer
 {
     background: white;
     margin: auto;
     width: 1024px;
     height: 30px;
-    text-align: center;  
-    
+    text-align: center;      
+}
+div#menu-footer a:link
+{
+    text-decoration: none;
+}
+footer p
+{
+    font-size: 12pt;
+    font-style: italic;
 }

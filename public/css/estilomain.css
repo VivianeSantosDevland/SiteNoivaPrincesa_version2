@@ -123,11 +123,20 @@ li
    
 }
 /* texto principal */
-div#topo-texto
+
+div#topo-texto 
 {
     background: indigo;
     margin: auto;
     width: 1024px;
+    float: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#topo-texto img
+{
+    background:black;
+    float: left;
 }
 section#texto-principal
 {
@@ -172,6 +181,10 @@ div#footer-texto
     background: indigo;
     margin: auto;
     width: 1024px;    
+}
+div#footer-texto img
+{
+    background:black;
 }
 /* caixas com as imagens*/
 div#foto-boxes

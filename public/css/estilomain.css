@@ -129,47 +129,52 @@ div#topo-texto
     background: indigo;
     margin: auto;
     width: 1024px;
-    float: flex;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 div#topo-texto img
 {
     background:black;
-    float: left;
+    
 }
 section#texto-principal
 {
     background: cyan;
     margin: auto;
     width: 1024px;
-    height: 220px;
+    height: 250px;
     display: block;
-    
+    text-align: center;
 }
 div#texto-coluna1
 {
     background: darkkhaki;
-    width: 500px;
+    width: 475px;
     height: 190px;
     float: left;
     text-indent: 1.5em;
     text-align: justify;
     margin-left: 12px;
 }
-/*
+
 div#centro-texto
 {
     background: greenyellow;
     height: 190px;
-    width: 10px;
+    width: 50px;
     float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-*/
+
 div#texto-coluna2
 {
     background: darkred;
-    width: 500px;
+    width: 475px;
     height: 190px;
     margin-right: 12px;
     float: right;
@@ -180,8 +185,13 @@ div#footer-texto
 {
     background: indigo;
     margin: auto;
-    width: 1024px;    
+    width: 1024px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 div#footer-texto img
 {
     background:black;

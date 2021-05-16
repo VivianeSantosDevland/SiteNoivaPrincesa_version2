@@ -6,7 +6,7 @@
 }
 body
 {
-    background: darksalmon
+    background: white;
 }
 
 
@@ -20,17 +20,17 @@ div#topo
 }
 div#topo-transparencia
 {
-    height: 300px;
+    height: 302px;
     width: 1024px;
     margin: auto;
     opacity: 70%;
     background: #ecb2c4;
     position: absolute;
-    margin-top: -305px;
+    margin-top: -306px;
 }
 div#logo-rede
 {
-    background: greenyellow;
+    /*background: greenyellow;*/
     height: 100px;
     width: 1024px;
     position: absolute;
@@ -41,19 +41,19 @@ div#logo-rede
 }
 div#logo
 {
-    background: blue;
+    /*background: blue;*/
     width: 100px;
     height: 100px;
-   /* margin-top: -310px;*/
+    margin-top: 10px;
     position: relative;
     float: left;
 }
 div#redes-sociais
 {
-    background: green;
-    width: 100px;
+    /*background: green;*/
+    width: 200px;
     height: 100px;
-    margin: auto;
+    margin-top: 10px;
     position: relative;
     float: right;
 }
@@ -61,10 +61,11 @@ div#redes-sociais
 /* circulos do painel de fotos*/
 div#circles
 {
-    background: tomato;
-    width: 100px;
+    /*background: tomato;*/
+    width: 85px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -73,31 +74,37 @@ div#circles
 }
 div#circle-1
 {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: white;
-    margin-right: 4px;
+    float: left;
+    /*padding: 2px;*/
+    margin: 2px;
 }
 div#circle-2
 {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: white;
-    margin-right: 4px;
+    /*padding: 2px; */   
+    margin: 2px;
 }
 div#circle-3
 {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background: white;
+    float: right;
+   /* padding: 2px;*/
+   margin: 2px;
 }
 
 div#menu-principal
 {
-    background: crimson;
+    /*background: crimson;*/
     margin: auto;
     width: 1024px;
     height: 46px;
@@ -126,7 +133,7 @@ li
 
 div#topo-texto 
 {
-    background: indigo;
+    /*background: indigo;*/
     margin: auto;
     width: 1024px;
     display: flex;
@@ -135,17 +142,18 @@ div#topo-texto
     justify-content: center;
     padding: 10px;
 }
+/*
 div#topo-texto img
 {
-    background:black;
+    background:black; 
     
-}
+}*/
 section#texto-principal
 {
-    background: cyan;
+    /*background: cyan;*/
     margin: auto;
     width: 1024px;
-    height: 350px;
+    height: 320px;
     display: block;
     text-align: center;
     font-family: vivaldi, sans-serif;
@@ -157,7 +165,7 @@ section#texto-principal h3
 }
 div#texto-coluna1
 {
-    background: darkkhaki;
+   /* background: darkkhaki;*/
     width: 475px;
     height: 190px;
     float: left;
@@ -168,8 +176,8 @@ div#texto-coluna1
 
 div#centro-texto
 {
-    background: greenyellow;
-    height: 190px;
+    /*background: greenyellow;*/
+    height: 320px;
     width: 50px;
     float: left;
     display: flex;
@@ -180,7 +188,7 @@ div#centro-texto
 
 div#texto-coluna2
 {
-    background: darkred;
+    /*background: darkred;*/
     width: 475px;
     height: 190px;
     margin-right: 12px;
@@ -196,27 +204,27 @@ div#texto-coluna2 h4
 }
 div#footer-texto
 {
-    background: indigo;
+    /*background: indigo;*/
     margin: auto;
     width: 1024px;
     display: flex;    
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    
 }
-
+/*
 div#footer-texto img
 {
     background:black;
-}
+}*/
 /* caixas com as imagens*/
 div#foto-boxes
 {
     margin: auto;
     width: 1024px;
     height: 380px;
-    background: darkblue;
+    /*background: darkblue;*/
     display: flex;/* e todo tempo era só colocar isso???! vey, agora não vou esquecer como centralizar divs dentro de div*/
     justify-content: center;
     align-items: center;
@@ -245,7 +253,7 @@ div#foto-boxes
 }
 footer
 {
-    background: crimson;
+    /*background: crimson;*/
     margin: auto;
     width: 1024px;
     height: 120px;

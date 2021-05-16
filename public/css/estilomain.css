@@ -133,6 +133,7 @@ div#topo-texto
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 div#topo-texto img
 {
@@ -144,9 +145,15 @@ section#texto-principal
     background: cyan;
     margin: auto;
     width: 1024px;
-    height: 250px;
+    height: 350px;
     display: block;
     text-align: center;
+    font-family: vivaldi, sans-serif;
+    font-size: 20pt;
+}
+section#texto-principal h3
+{
+    padding: 20px;
 }
 div#texto-coluna1
 {
@@ -181,6 +188,12 @@ div#texto-coluna2
     text-indent: 1.5em;
     text-align: justify;
 }
+div#texto-coluna2 h4
+{
+    float: right;
+    margin-right: 30px;
+    padding: 20px;
+}
 div#footer-texto
 {
     background: indigo;
@@ -190,6 +203,7 @@ div#footer-texto
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 div#footer-texto img

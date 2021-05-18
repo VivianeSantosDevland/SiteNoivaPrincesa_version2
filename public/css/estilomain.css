@@ -236,9 +236,15 @@ div#foto-boxes
     height: 346px;
     float: left;
     margin: 10px;
+    box-shadow: 2px 2px 5px black;
     
 }
-
+.foto-box span
+{
+    background: black;
+    color: white;
+    opacity: 0;
+}
 .foto-box p{
     background: #e089a5;
     text-align: center;

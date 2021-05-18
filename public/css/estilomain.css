@@ -228,18 +228,17 @@ div#foto-boxes
     display: flex;/* e todo tempo era só colocar isso???! vey, agora não vou esquecer como centralizar divs dentro de div*/
     justify-content: center;
     align-items: center;
-    
-
 }
 .foto-box
 {
     background: lightpink;
-    width: 289px;
-    height: 350px;
+    width: 300px;
+    height: 346px;
     float: left;
     margin: 10px;
     
 }
+
 .foto-box p{
     background: #e089a5;
     text-align: center;

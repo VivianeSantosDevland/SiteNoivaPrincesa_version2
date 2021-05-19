@@ -239,11 +239,41 @@ div#foto-boxes
     box-shadow: 2px 2px 5px black;
     
 }
+
+
+div#efeito-hover
+{
+    background: #802240;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -306px;
+    opacity: 0;
+}
+
+.foto-box:hover
+{
+    opacity: 75%;
+    transition: all .4s ease-in;
+}
+/*
+
+div#efeito-hover a:hover
+
+{
+    opacity: 75%;
+    transition: all .4s ease-in;
+}*/
 .foto-box span
 {
-    background: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px auto;
     color: white;
-    opacity: 0;
+    font-family: MV Boli;
+    font-size: 14pt;
+    opacity: 1;
 }
 .foto-box p{
     background: #e089a5;

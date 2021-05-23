@@ -121,13 +121,16 @@ div#menu-principal a:link
     
 }
 
-li 
-{
-    
+li
+{   
     display: inline;
     margin-right: 10px;
-    
-   
+    padding: 7px;
+}
+div#menu-principal li a:hover
+{
+    color: #b37a8c;
+    font-style: italic;
 }
 /* texto principal */
 
@@ -237,33 +240,13 @@ div#foto-boxes
     float: left;
     margin: 10px;
     box-shadow: 2px 2px 5px black;
-    
+    text-decoration: none;
+}
+.foto-box a 
+{
+    text-decoration: none;
 }
 
-
-div#efeito-hover
-{
-    background: #802240;
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    margin-top: -306px;
-    opacity: 0;
-}
-
-.foto-box:hover
-{
-    opacity: 75%;
-    transition: all .4s ease-in;
-}
-/*
-
-div#efeito-hover a:hover
-
-{
-    opacity: 75%;
-    transition: all .4s ease-in;
-}*/
 .foto-box span
 {
     display: flex;
@@ -273,8 +256,20 @@ div#efeito-hover a:hover
     color: white;
     font-family: MV Boli;
     font-size: 14pt;
-    opacity: 1;
+    
 }
+
+.foto-box a:hover 
+{
+    opacity: 1;
+    transition: all .6s ease-in;
+}
+.foto-box a:hover span
+{
+    opacity: 1;
+    transition: all .6s ease-in-out;
+}
+
 .foto-box p{
     background: #e089a5;
     text-align: center;
@@ -285,6 +280,16 @@ div#efeito-hover a:hover
     justify-content: center;
     font-family: MV Boli;
     color: white;
+}
+div#efeito-hover
+{
+    background: #802240;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -305px;
+    opacity: 0;
+    
 }
 footer
 {
@@ -313,7 +318,10 @@ div#menu-footer
 div#menu-footer a:link
 {
     text-decoration: none;
-    
+}
+div#menu-footer li a:hover
+{
+    color: white;
 }
 
 footer p

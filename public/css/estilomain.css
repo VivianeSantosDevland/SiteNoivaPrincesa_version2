@@ -234,44 +234,33 @@ div#foto-boxes
 }
 .foto-box
 {
-    background: lightpink;
+    /*background: lightpink;*/
+    background: #e089a5;
     width: 300px;
     height: 346px;
     float: left;
     margin: 10px;
     box-shadow: 2px 2px 5px black;
     text-decoration: none;
-}
-.foto-box a 
-{
-    text-decoration: none;
-}
-
-.foto-box span
-{
-    display: flex;
-    flex-direction: column;
     text-align: center;
     margin: 80px auto;
     color: white;
     font-family: MV Boli;
     font-size: 14pt;
-    
 }
-
+.foto-box a 
+{
+    text-decoration: none;
+}
+/*
 .foto-box a:hover 
 {
     opacity: 1;
     transition: all .6s ease-in;
 }
-.foto-box a:hover span
-{
-    opacity: 1;
-    transition: all .6s ease-in-out;
-}
-
+*/
 .foto-box p{
-    background: #e089a5;
+    /*background: #e089a5;*/
     text-align: center;
     height: 46px;
     display: flex;
@@ -281,15 +270,30 @@ div#foto-boxes
     font-family: MV Boli;
     color: white;
 }
-div#efeito-hover
+.foto-box p#teste
+{
+    margin-top: 120px;
+}
+
+.efeito-hover
 {
     background: #802240;
     height: 300px;
     width: 300px;
     position: absolute;
-    margin-top: -305px;
-    opacity: 0;
-    
+    margin-top: -309px;
+    opacity: 0;    
+}
+
+.efeito-hover:hover
+{
+    background: #802240;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -309px;
+    opacity: 60%;    
+    -webkit-transition: all .6s ease-in;
 }
 footer
 {

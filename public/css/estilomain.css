@@ -277,7 +277,7 @@ div#foto-boxes
 
 .efeito-hover
 {
-    background: #802240;
+    background: rgba(128, 34, 64, 60%);
     height: 300px;
     width: 300px;
     position: absolute;
@@ -287,12 +287,12 @@ div#foto-boxes
 
 .efeito-hover:hover
 {
-    background: #802240;
+    
     height: 300px;
     width: 300px;
     position: absolute;
     margin-top: -309px;
-    opacity: 60%;    
+    opacity: 1;    
     -webkit-transition: all .6s ease-in;
 }
 footer

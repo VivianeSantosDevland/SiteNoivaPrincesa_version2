@@ -133,7 +133,12 @@ div#menu-principal li a:hover
     font-style: italic;
 }
 /* texto principal */
-
+div#texto-div-container
+{
+    /*background: limegreen;*/
+    display: grid;
+    justify-content: center;
+}
 div#topo-texto 
 {
     /*background: indigo;*/
@@ -209,6 +214,7 @@ div#footer-texto
 {
     /*background: indigo;*/
     margin: auto;
+    padding-top: 60px;
     width: 1024px;
     display: flex;    
     flex-direction: column;
